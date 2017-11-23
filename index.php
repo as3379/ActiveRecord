@@ -23,7 +23,7 @@ include 'accounts.php';
 include 'dbconn.php';
 include 'stringFunction.php';
 include 'table.php';
-include 'todo.php';
+//include 'todo.php';
 include 'todos.php';
 stringFunction::displayString('Select All Records from Accounts');
 $obj = accounts::create();

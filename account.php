@@ -1,7 +1,8 @@
 <?php
 
+include 'todo.php';
 
-class account extends fusion\model {
+final class account extends fusion\model implements modelInterface {
 
     public $email = 'email';
     public $fname = 'fname';

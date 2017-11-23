@@ -2,7 +2,7 @@
 
 namespace fusion;
 
-class model {
+abstract class model {
     // protected $tableName;
     static $columnString;
     static $valueString;

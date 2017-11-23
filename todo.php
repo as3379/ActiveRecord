@@ -1,5 +1,10 @@
 <?php
-class todo extends fusion\model {
+interface modelInterface
+{
+    public function save ();
+    public function delete();
+}
+final class todo extends fusion\model implements modelInterface {
 
     public $owneremail = 'owneremail';
     public $ownerid = 'ownerid';
