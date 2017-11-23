@@ -1,5 +1,5 @@
 <?php
-class accounts extends collection {
+class accounts extends fusion\collection {
     protected static $modelName = 'accounts';
 }
 ?>

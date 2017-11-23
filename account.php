@@ -1,5 +1,7 @@
 <?php
-class account extends model {
+
+
+class account extends fusion\model {
 
     public $email = 'email';
     public $fname = 'fname';

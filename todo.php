@@ -1,5 +1,5 @@
 <?php
-class todo extends model {
+class todo extends fusion\model {
 
     public $owneremail = 'owneremail';
     public $ownerid = 'ownerid';

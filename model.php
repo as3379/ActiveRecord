@@ -1,4 +1,7 @@
 <?php
+
+namespace fusion;
+
 class model {
     // protected $tableName;
     static $columnString;

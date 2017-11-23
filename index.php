@@ -20,9 +20,7 @@ include 'model.php';
 include 'collection.php';
 include 'account.php';
 include 'accounts.php';
-
 include 'dbconn.php';
-
 include 'stringFunction.php';
 include 'table.php';
 include 'todo.php';

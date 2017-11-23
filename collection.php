@@ -1,4 +1,6 @@
 <?php
+namespace fusion;
+
 class collection {
     static public function create() {
         $model = new static::$modelName;
@@ -11,7 +13,7 @@ class collection {
         $statement = $db->prepare($sql);
         $statement->execute();
         $class = static::$modelName;
-        $statement->setFetchMode(PDO::FETCH_CLASS, $class);
+        $statement->setFetchMode(\PDO::FETCH_CLASS, $class);
         $recordsSet =  $statement->fetchAll();
         return $recordsSet;
     }
@@ -22,7 +24,7 @@ class collection {
         $statement = $db->prepare($sql);
         $statement->execute();
         $class = static::$modelName;
-        $statement->setFetchMode(PDO::FETCH_CLASS, $class);
+        $statement->setFetchMode(\PDO::FETCH_CLASS, $class);
         $recordsSet =  $statement->fetchAll();
         return $recordsSet;
     }
